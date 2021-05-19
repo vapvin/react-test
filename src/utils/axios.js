@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DOMAIN = "https://54.180.159.77/";
+const DOMAIN = "http://54.180.159.77/";
 axios.defaults.withCredentials = true;
 export const request = async (method, url, data, key) => {
     
